@@ -7,6 +7,9 @@
              xmlns:dxn="clr-namespace:DevExpress.Maui.Navigation;assembly=DevExpress.Maui.Navigation"
              x:Class="DXMauiApp1.MainPage"
              xmlns:local="clr-namespace:DataGridExample">
+    <ContentPage.BindingContext>
+        <local:/>
+    </ContentPage.BindingContext>
     <dxg:DataGridView ItemsSource="{Binding Employees}">
     </dxg:DataGridView>
 </ContentPage>
