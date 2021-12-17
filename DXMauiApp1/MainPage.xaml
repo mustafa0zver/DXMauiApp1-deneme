@@ -6,10 +6,10 @@
              xmlns:dxe="clr-namespace:DevExpress.Maui.Editors;assembly=DevExpress.Maui.Editors"
              xmlns:dxn="clr-namespace:DevExpress.Maui.Navigation;assembly=DevExpress.Maui.Navigation"
              x:Class="DXMauiApp1.MainPage"
-             xmlns:local="clr-namespace:DataGridExample">
+             xmlns:local="clr-namespace:DXMauiApp1">
     <ContentPage.BindingContext>
-        <local:/>
+        <local:EmployeeDataViewModel/>
     </ContentPage.BindingContext>
-    <dxg:DataGridView ItemsSource="{Binding Employees}">
+    <dxg:DataGridView  x:Name="test" ItemsSource="{Binding Employees}">
     </dxg:DataGridView>
 </ContentPage>

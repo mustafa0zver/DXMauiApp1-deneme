@@ -37,6 +37,15 @@
 	  <Compile Remove="Class1.cs" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <MauiImage Remove="Resources\Images\Image1.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="Image1.jpg" />
+	  <None Remove="Resources\Images\Image1.jpg" />
+	</ItemGroup>
+
 
 	<ItemGroup>
 	  <PackageReference Include="DevExpress.Maui.Charts" Version="[22.1.1-pre-21314]" />
