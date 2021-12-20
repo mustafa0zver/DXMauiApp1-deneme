@@ -9,8 +9,9 @@
              xmlns:local="clr-namespace:DXMauiApp1">
     <ContentPage.Content>
 
-        <StackLayout Margin="20" VerticalOptions="StartAndExpand">
+        <StackLayout Margin="0" VerticalOptions="StartAndExpand">
 
+            <Button Text="Save" Clicked="OnSaveClicked" />
             <Button Text="Save" Clicked="OnSaveClicked" />
 
         </StackLayout>

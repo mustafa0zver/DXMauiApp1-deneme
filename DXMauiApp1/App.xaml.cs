@@ -13,14 +13,13 @@ namespace DXMauiApp1
         public App()
         {
             //InitializeComponent();
+            IDEAL = this;
             MainPages[0] = new MainPage(); // ana sayfa
             MainPages[1] = new Page1(); // page1
             SetPage(1);
         }
         public void SetPage(int pagenum) {
             MainPage = MainPages[pagenum];
-            IDEAL = this;
-            
         }
     }
 }
