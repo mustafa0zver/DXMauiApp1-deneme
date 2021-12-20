@@ -57,7 +57,13 @@
 	<ItemGroup Condition="'$(TargetFramework)' == 'net6.0-android'">
 	  <PackageReference Include="DevExpress.Maui.DataGrid" Version="[22.1.1-pre-21314]" />
 	  <PackageReference Include="DevExpress.Maui.Navigation" Version="[22.1.1-pre-21314]" />
-	</ItemGroup>	
+	</ItemGroup>
+
+	<!--<ItemGroup>
+	  <MauiXaml Update="Page1.xaml">
+	    <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+	  </MauiXaml>
+	</ItemGroup>-->	
 
 	<PropertyGroup>
 		<UseInterpreter Condition="$(TargetFramework.Contains('-android'))">False</UseInterpreter>
